@@ -277,7 +277,7 @@ request.get(url)
 Function that creates a new cookie.
 
 ```javascript
-request.cookie('cookie_string_here')
+request.cookie('cookie_string_here="value"; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; Domain=.example.com; HttpOnly')
 ```
 ### request.jar
 
